@@ -7,14 +7,14 @@ Netzwerkoperationen mit APIs, XML-Parsing und das Singleton-Designmuster in Java
 - Klasse Weather
 Hauptklasse: Enthält die main-Methode.
 Benutzerinteraktion: Fordert den Benutzer auf, den Namen einer Stadt einzugeben, für die das Wetter abgefragt werden soll.
-Datenabruf: Ruft die fetch-Methode der WeatherFetcher-Klasse auf, um Wetterdaten für die eingegebene Stadt zu erhalten.
 Datenanzeige: Zeigt die Wetterdaten in einem formatierten Format an, einschließlich Zeitstempel, Temperatur, Luftfeuchtigkeit und Luftdruck.
 
 - Klasse WeatherFetcher
 Singleton-Design: Implementiert das Singleton-Designmuster, um sicherzustellen, dass nur eine Instanz von WeatherFetcher existiert.
 Wetterdaten-Abruf: Verwendet die OpenWeatherMap API, um Wetterdaten im XML-Format zu holen.
 XML-Parsing: Verarbeitet die XML-Antwort von OpenWeatherMap und extrahiert relevante Wetterinformationen.
-Klasse WeatherInfo
+
+- Klasse WeatherInfo
 Datenhaltung: Hält Informationen über das Wetter, einschließlich Zeitstempel, Temperatur, Luftfeuchtigkeit und Luftdruck.
 Getter-Methoden: Stellt Methoden zur Verfügung, um auf diese Informationen zuzugreifen.
 
